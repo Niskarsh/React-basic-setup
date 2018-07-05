@@ -1,0 +1,19 @@
+{
+  "name": "react-basic-setup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Niskarsh/React-basic-setup.git"
+  },
+  "author": "Niskarsh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Niskarsh/React-basic-setup/issues"
+  },
+  "homepage": "https://github.com/Niskarsh/React-basic-setup#readme"
+}
