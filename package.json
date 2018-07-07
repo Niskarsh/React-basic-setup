@@ -5,7 +5,9 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "concurrently \"webpack\" \"babel-watch src/server/server.js\""
+    "server": "babel-watch --watch public --watch src src/server/server.js",
+    "webpack-watch": "webpack --watch",
+    "start": "concurrently --kill-others \"npm run webpack-watch\" \"npm run server\""
   },
   "repository": {
     "type": "git",
@@ -32,6 +34,8 @@
     "babel-preset-react": "^6.24.1",
     "babel-register": "^6.26.0",
     "babel-watch": "^2.0.7",
+    "browser-refresh": "^1.7.3",
+    "reload": "^2.3.0",
     "webpack": "^4.15.1",
     "webpack-cli": "^3.0.8"
   }

@@ -11,6 +11,9 @@ module.exports = {
         publicPath : outputPath
 
     },
+    resolve: {
+        extensions: ['.js', '.jsx','.json','.html', '.css'] 
+    },
     module : {
         rules :[
             {
