@@ -32,10 +32,7 @@
     "babel-loader": "^7.1.5",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
-    "babel-register": "^6.26.0",
     "babel-watch": "^2.0.7",
-    "browser-refresh": "^1.7.3",
-    "reload": "^2.3.0",
     "webpack": "^4.15.1",
     "webpack-cli": "^3.0.8"
   }
