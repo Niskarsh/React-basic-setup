@@ -3,7 +3,7 @@ import express from 'express'
 
 let app = express()
 
-app.use (express.static( `${__dirname}/../public`))
+app.use (express.static( `${__dirname}/../../public`))
 
 const port = process.env.PORT || 3000
 
